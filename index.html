@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helados Patagonia</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f0ff;
+      color: #333;
+    }
+    header {
+      background-color: #7b4cff;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .sabores ul {
+      list-style: none;
+      padding: 0;
+    }
+    .sabores li {
+      background: #e5dbff;
+      margin: 0.5rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .whatsapp-btn {
+      background-color: #25d366;
+      color: white;
+      text-decoration: none;
+      padding: 1rem 1.5rem;
+      border-radius: 10px;
+      display: inline-block;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #7b4cff;
+      color: white;
+      border: none;
+      padding: 0.8rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #eee;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Helados Patagonia</h1>
+    <p>Endulza tu día con helados naturales 🍨</p>
+  </header>
+
+  <section class="sabores">
+    <h2>Sabores y Precios</h2>
+    <ul>
+      <li>Vainilla blanca (Pote 133 ml – $2.500)</li>
+      <li>Dulce de leche (Pote 133 ml – $2.500)</li>
+      <li>Frutilla (Pote 133 ml – $2.500)</li>
+      <li>Pistacho chocolate blanco (Pote 133 ml – $2.500)</li>
+      <li>Torta berries (Pote 473 ml – $5.500)</li>
+      <li>Chocolate bitter 80% cacao (Pote 473 ml – $5.500)</li>
+      <li>Crumble chocolate blanco maracuyá (Pote 473 ml – $5.500)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Pedidos</h2>
+    <p>Reparto a domicilio en Chicauma</p>
+    <a class="whatsapp-btn" href="https://wa.me/56941347727" target="_blank">Haz tu pedido por WhatsApp</a>
+  </section>
+
+  <section>
+    <h2>Contacto</h2>
+    <form action="mailto:tuemail@ejemplo.com" method="post" enctype="text/plain">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Helados Patagonia | 3er lugar mejores helados de Santiago
+  </footer>
+</body>
+</html>
